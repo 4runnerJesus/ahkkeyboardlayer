@@ -46,9 +46,11 @@ Return
     ; Undo functionality
     z::SendInput ^z
 
-    ; Windows key + Left/Right functionality
-    n::SendInput #{Left}
-    m::SendInput #{Right}
+    ; Windows key + Left/Right/Up/Down functionality
+    #h::SendInput #{Left}   ; Windows key + h to move the window to the left
+    #j::SendInput #{Down}   ; Windows key + j to move the window down
+    #k::SendInput #{Up}     ; Windows key + k to move the window up
+    #l::SendInput #{Right}  ; Windows key + l to move the window to the right
 
     ; Other commands
     +h::SendInput +{Left}
