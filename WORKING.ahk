@@ -76,6 +76,10 @@ Return
     +w::SendInput +^{Right}
     +b::SendInput +^{Left}
 
+    ; remap i to F2
+    i::SendInput {F2}
+
+
 #If
 
 ; Ensure Alt + k still works for moving up
