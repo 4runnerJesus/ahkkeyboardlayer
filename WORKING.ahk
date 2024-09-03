@@ -76,8 +76,8 @@ Return
     +w::SendInput +^{Right}
     +b::SendInput +^{Left}
 
-    ; remap i to F2
-    i::SendInput {F2}
+    ; remap o to F2
+    o::SendInput {F2}
 
 
 #If
