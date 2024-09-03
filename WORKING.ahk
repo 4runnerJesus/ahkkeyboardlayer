@@ -49,6 +49,7 @@ Return
     ; Windows key + Left/Right functionality
     n::SendInput #{Left}
     m::SendInput #{Right}
+    k::SendInput #{Up}
 
     ; Other commands
     +h::SendInput +{Left}
