@@ -59,6 +59,7 @@ Return
     p::SendInput ^v
     /::SendInput ^f
     `;::SendInput {Enter}
+    s::SendInput ^s
 
     ; Ctrl + Home/End (gg/G)
     g::SendInput ^{Home}
