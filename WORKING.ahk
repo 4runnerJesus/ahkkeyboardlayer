@@ -38,11 +38,9 @@ Return
     '::SendInput {Backspace}
 
     ; Page Up and Page Down functionality
-    i::SendInput {PgUp}
-    ^i::SendInput ^{PgUp}
-    u::SendInput {PgDn}
-    ^u::SendInput ^{PgDn}
-
+    i::SendInput ^{PgUp}
+    u::SendInput ^{PgDn}
+    
     ; Undo functionality
     z::SendInput ^z
 
