@@ -67,9 +67,11 @@ Return
     ,::SendInput {Home}
     .::SendInput {End}
 
-    ; Shift + , and Shift + . for selecting to Home and End
+    ; Shift Select Home, End, Page Up, Page Down
     +,::SendInput +{Home}
     +.::SendInput +{End}
+    +i::SendInput +{PgUp}
+    +u::SendInput +{PgDn}
 
     ; Shift + w and Shift + b for selecting word-wise movements
     +w::SendInput +^{Right}
