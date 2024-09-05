@@ -86,6 +86,9 @@ Return
 ; Ensure Alt + k still works for moving up
 !k::SendInput !{Up}
 
+; Ensure Alt + Enter still works
+!;::SendInput !{Enter}
+
 ; Ensure Alt + d works as delete
 !d::SendInput {Delete}
 
